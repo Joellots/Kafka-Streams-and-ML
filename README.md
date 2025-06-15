@@ -15,7 +15,7 @@ This project implements a **fraud detection system** using **Apache Kafka** for 
 
 ## 📐 Architecture
 
-![Architecture Diagram](path/to/architecture-image.png)
+![Architecture Diagram](arch_diag.png)
 
 1. **Producers**: Simulated real-time financial transactions streamed into Kafka.
 2. **Kafka Streams**: Process transaction data in real time.
@@ -74,6 +74,7 @@ This project implements a **fraud detection system** using **Apache Kafka** for 
 
 - 🖥️ The **dashboard** shows real-time transaction data and fraud detection results.  
 - 🌀 **Producer and consumer**: The application independently manages the streaming pipeline. No manual starting of producers or consumers is required.
+  ![User Interface](ui.png)
 
 ---
 
